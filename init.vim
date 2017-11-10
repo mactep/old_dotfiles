@@ -19,7 +19,7 @@ if dein#load_state('/home/mactep/.config/nvim/')
   call dein#add('scrooloose/nerdcommenter')
   call dein#add('Raimondi/delimitMate')
 
-  call dein#add('vim-syntastic/syntastic')
+  call dein#add('w0rp/ale') 				" asynchronous syntastic
   call dein#add('vim-python/python-syntax')
   call dein#add('pangloss/vim-javascript')
   call dein#add('MaxMEllon/vim-jsx-pretty')
@@ -31,8 +31,8 @@ if dein#load_state('/home/mactep/.config/nvim/')
   call dein#add('ludovicchabant/vim-gutentags')
   call dein#add('Shougo/deoplete.nvim')
   call dein#add('zchee/deoplete-jedi')
-  "call dein#add('wokalski/autocomplete-flow')
-  "call dein#add('zchee/deoplete-clang')
+  call dein#add('zchee/deoplete-clang')
+  call dein#add('carlitux/deoplete-ternjs')
 
   call dein#add('jistr/vim-nerdtree-tabs')
 
@@ -55,16 +55,13 @@ set encoding=utf8 					" default encoding
 set list 						" show invisibles
 set termguicolors 					" this bugs on the xfce terminal
 set background=dark
-colorscheme gruvbox 					" colors doesn't work properly on xfce terminal
+colorscheme gruvbox
 set listchars=eol:¬,tab:..,trail:.
 set clipboard=unnamed 					" paste from system clipboard
 set autochdir 						" automaticaly ch into the file directory
 set completeopt=longest,menuone
 set splitbelow
 set splitright
-let delimitMate_jump_expansion = 1
-let delimitMate_expand_cr = 1
-"set guicursor=n-i-v-c-sm:block,ci-ve:ver25,r-cr-o:hor20 " set the cursor to default one
 
 " shortcuts
 inoremap <S-Tab> <C-d>
@@ -94,55 +91,42 @@ tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-l> <C-\><C-n><C-w>l
 
-" NERDTree config
+" delimitMate settings
+let delimitMate_jump_expansion = 1
+let delimitMate_expand_cr = 1
+
+" NERDTree settings
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 map <C-n> :NERDTreeToggle<CR>
 
-" code completion deoplete + UltiSnips + Supertabs integration
+" code completion settings
 let g:deoplete#enable_at_startup = 1
-"let g:deoplete#complete_method = 'omnifunc'
 set omnifunc=syntaxcomplete#Complete
-"let g:ycm_python_binary_path='/usr/bin/python3'
-"let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-"let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
-" syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list=1
-let g:syntastic_auto_loc_list_height = 5
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-
-" Airline config
-" (Firstly should be installed a font patched for powerline and then change it
-" on the terminal)
-"let g:airline_powerline_fonts = 1
-
 " python settings
 autocmd FileType python setlocal ai sw=4 ts=4 tw=79 sts=4 sr cc=80 et
 autocmd FileType python setlocal omnifunc=python3complete#Complete
+autocmd FileType python setlocal tags+=/home/mactep/.config/nvim/tags/python.tags
 let g:python_highlight_all=1
 let g:deoplete#sources#jedi#python_path = '/usr/bin/python3'
-set tags+=/home/mactep/.config/nvim/tags/python.tags
-let g:syntastic_python_checkers = ['flake8']
-"let g:jedi#force_py_version=3
-"let g:jedi#completions_enabled = 0
-"let g:python3_host_prog = '/usr/bin/python3'
 
 " javascript settings
-autocmd Filetype javascript,js set ai sw=2 ts=2 et
-let g:javascript_plugin_flow = 1
-let g:syntastic_javascript_checkers = ['eslint']
+autocmd Filetype javascript,js setlocal ai sw=4 ts=4 et
 autocmd FileType javascript,js setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType javascript,js setlocal tags+=/home/mactep/.config/nvim/tags/js.tags
+let g:deoplete#sources#ternjs#tern_bin = '/usr/local/bin/tern'
 
 " react.js settings
 let g:jsx_ext_required = 0 				" Allow JSX in normal JS files
 let g:vim_jsx_pretty_enable_jsx_highlight = 1
 let g:vim_jsx_pretty_colorful_config = 1
+
+" C settings
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-3.8/lib/libclang.so'
+let g:deoplete#sources#clang#clang_header = '/usr/lib/llvm-3.8/lib/clang'
+autocmd FileType arduino,c setlocal tags+=/home/mactep/.config/nvim/tags/c.tags
+autocmd FileType arduino,c setlocal ts=2 sts=2 sw=2 et
