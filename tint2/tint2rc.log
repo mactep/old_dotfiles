@@ -1,0 +1,3188 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.26)  3 APR 2018 13:02
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**/tmp/nvimP91z2y/1
+(/tmp/nvimP91z2y/1
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+! You can't use `macro parameter character #' in vertical mode.
+l.1 #
+      Tint2 config file
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 # T
+       int2 config file
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+! You can't use `macro parameter character #' in horizontal mode.
+l.2 #
+      Modified by Aditya Shakya
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[]
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.4 #
+      Backgrounds
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 # B
+       ackgrounds
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+[] 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.6 #
+      Background 1: Panel
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 # B
+       ackground 1: Panel
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.8 border_
+           width = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+! You can't use `macro parameter character #' in math mode.
+l.10 background_color = #
+                         000000 60
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.11 border_color = #
+                     000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.12 background_color_hover = #
+                               000000 60
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.13 border_color_hover = #
+                           000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.14 background_color_pressed = #
+                                 000000 60
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.15 border_color_pressed = #
+                             000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--16
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 6--16
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 6--16
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.21164pt too wide) in paragraph at lines 6--16
+\OML/cmm/m/it/10 TBLRbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (100.59474pt too wide) in paragraph at lines 6--16
+\OT1/cmr/m/n/10 00000060\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (142.8194pt too wide) in paragraph at lines 6--16
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 background[]olor[]over \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (124.99757pt too wide) in paragraph at lines 6--16
+\OT1/cmr/m/n/10 00000060\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (151.44289pt too wide) in paragraph at lines 6--16
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 background[]olor[]ressed \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (133.62106pt too wide) in paragraph at lines 6--16
+\OT1/cmr/m/n/10 00000060\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (35.0001pt too wide) in paragraph at lines 6--16
+\OT1/cmr/m/n/10 0000000$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.17 #
+       Background 2: Active task
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 # B
+        ackground 2: Active task
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 border_
+            width = 2
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.21 background_color = #
+                         000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.22 border_color = #
+                     66BB6A 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.23 background_color_hover = #
+                               000000 30
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.24 border_color_hover = #
+                           66BB6A 90
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.25 background_color_pressed = #
+                                 000000 50
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.26 border_color_pressed = #
+                             66BB6A 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--27
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 17--27
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 17--27
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (91.50327pt too wide) in paragraph at lines 17--27
+\OML/cmm/m/it/10 Bbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.59473pt too wide) in paragraph at lines 17--27
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (156.493pt too wide) in paragraph at lines 17--27
+\OT1/cmr/m/n/10 66\OML/cmm/m/it/10 BB\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 A\OT1/cm
+r/m/n/10 80\OML/cmm/m/it/10 background[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (124.99757pt too wide) in paragraph at lines 17--27
+\OT1/cmr/m/n/10 00000030\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (165.11649pt too wide) in paragraph at lines 17--27
+\OT1/cmr/m/n/10 66\OML/cmm/m/it/10 BB\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 A\OT1/cm
+r/m/n/10 90\OML/cmm/m/it/10 background[]olor[]ressed \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (133.62106pt too wide) in paragraph at lines 17--27
+\OT1/cmr/m/n/10 00000050\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (53.67372pt too wide) in paragraph at lines 17--27
+\OT1/cmr/m/n/10 66\OML/cmm/m/it/10 BB\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 A\OT1/cm
+r/m/n/10 100$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.28 #
+       Background 3: Default task, Iconified task
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 # B
+        ackground 3: Default task, Iconified task
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 border_
+            width = 2
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.32 background_color = #
+                         000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.33 border_color = #
+                     FFFFFF 20
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.34 background_color_hover = #
+                               000000 20
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.35 border_color_hover = #
+                           FFFFFF 50
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.36 background_color_pressed = #
+                                 000000 40
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.37 border_color_pressed = #
+                             FFFFFF 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--38
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 28--38
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 28--38
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (91.50327pt too wide) in paragraph at lines 28--38
+\OML/cmm/m/it/10 Bbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.59473pt too wide) in paragraph at lines 28--38
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (164.73607pt too wide) in paragraph at lines 28--38
+\OML/cmm/m/it/10 FFFFFF\OT1/cmr/m/n/10 20\OML/cmm/m/it/10 background[]olor[]ove
+r \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (124.99757pt too wide) in paragraph at lines 28--38
+\OT1/cmr/m/n/10 00000020\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (173.35956pt too wide) in paragraph at lines 28--38
+\OML/cmm/m/it/10 FFFFFF\OT1/cmr/m/n/10 50\OML/cmm/m/it/10 background[]olor[]res
+sed \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (133.62106pt too wide) in paragraph at lines 28--38
+\OT1/cmr/m/n/10 00000040\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (56.91678pt too wide) in paragraph at lines 28--38
+\OML/cmm/m/it/10 FFFFFF\OT1/cmr/m/n/10 80$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.39 #
+       Background 4: Urgent task
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 # B
+        ackground 4: Urgent task
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 border_
+            width = 2
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.43 background_color = #
+                         000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.44 border_color = #
+                     00A9FF 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.45 background_color_hover = #
+                               000000 20
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.46 border_color_hover = #
+                           00A9FF 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.47 background_color_pressed = #
+                                 000000 60
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.48 border_color_pressed = #
+                             00A9FF 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--49
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 39--49
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (91.50327pt too wide) in paragraph at lines 39--49
+\OML/cmm/m/it/10 Bbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.59473pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (155.9583pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 FF\OT1/cm
+r/m/n/10 80\OML/cmm/m/it/10 background[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (124.99757pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/n/10 00000020\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (169.5818pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 FF\OT1/cm
+r/m/n/10 100\OML/cmm/m/it/10 background[]olor[]ressed \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (133.62106pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/n/10 00000060\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (53.13902pt too wide) in paragraph at lines 39--49
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 FF\OT1/cm
+r/m/n/10 100$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.50 #
+       Background 5: Inactive taskbar
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 # B
+        ackground 5: Inactive taskbar
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.52 border_
+            width = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.54 background_color = #
+                         000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.55 border_color = #
+                     000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.56 background_color_hover = #
+                               000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.57 border_color_hover = #
+                           000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.58 background_color_pressed = #
+                                 000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.59 border_color_pressed = #
+                             000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 50--60
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 50--60
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 50--60
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.21164pt too wide) in paragraph at lines 50--60
+\OML/cmm/m/it/10 TBLRbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.59473pt too wide) in paragraph at lines 50--60
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (142.8194pt too wide) in paragraph at lines 50--60
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 background[]olor[]over \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (119.99756pt too wide) in paragraph at lines 50--60
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (151.44289pt too wide) in paragraph at lines 50--60
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 background[]olor[]ressed \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (128.62105pt too wide) in paragraph at lines 50--60
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (35.0001pt too wide) in paragraph at lines 50--60
+\OT1/cmr/m/n/10 0000000$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.61 #
+       Background 6: Active taskbar
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 # B
+        ackground 6: Active taskbar
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63 border_
+            width = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.65 background_color = #
+                         000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.66 border_color = #
+                     00A9FF 60
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.67 background_color_hover = #
+                               000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.68 border_color_hover = #
+                           00A9FF 70
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.69 background_color_pressed = #
+                                 000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.70 border_color_pressed = #
+                             00A9FF 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.71 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 61--71
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 61--71
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 61--71
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (91.50327pt too wide) in paragraph at lines 61--71
+\OML/cmm/m/it/10 Bbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.59473pt too wide) in paragraph at lines 61--71
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (155.9583pt too wide) in paragraph at lines 61--71
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 FF\OT1/cm
+r/m/n/10 60\OML/cmm/m/it/10 background[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (119.99756pt too wide) in paragraph at lines 61--71
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (164.58179pt too wide) in paragraph at lines 61--71
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 FF\OT1/cm
+r/m/n/10 70\OML/cmm/m/it/10 background[]olor[]ressed \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (128.62105pt too wide) in paragraph at lines 61--71
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (48.139pt too wide) in paragraph at lines 61--71
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 FF\OT1/cm
+r/m/n/10 80$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.72 #
+       Background 7: Tooltip
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 # B
+        ackground 7: Tooltip
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.74 border_
+            width = 1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.76 background_color = #
+                         000000 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.77 border_color = #
+                     66BB6A 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.78 background_color_hover = #
+                               000000 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.79 border_color_hover = #
+                           66BB6A 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.80 background_color_pressed = #
+                                 000000 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.81 border_color_pressed = #
+                             000000 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 72--82
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 72--82
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 72--82
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.21164pt too wide) in paragraph at lines 72--82
+\OML/cmm/m/it/10 TBLRbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (100.59474pt too wide) in paragraph at lines 72--82
+\OT1/cmr/m/n/10 00000080\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (156.493pt too wide) in paragraph at lines 72--82
+\OT1/cmr/m/n/10 66\OML/cmm/m/it/10 BB\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 A\OT1/cm
+r/m/n/10 80\OML/cmm/m/it/10 background[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (124.99757pt too wide) in paragraph at lines 72--82
+\OT1/cmr/m/n/10 00000080\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (165.11649pt too wide) in paragraph at lines 72--82
+\OT1/cmr/m/n/10 66\OML/cmm/m/it/10 BB\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 A\OT1/cm
+r/m/n/10 80\OML/cmm/m/it/10 background[]olor[]ressed \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (133.62106pt too wide) in paragraph at lines 72--82
+\OT1/cmr/m/n/10 00000080\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (40.00012pt too wide) in paragraph at lines 72--82
+\OT1/cmr/m/n/10 00000080$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.83 #
+       Background 8: Systray, Bat, Clock
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 # B
+        ackground 8: Systray, Bat, Clock
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 border_
+            width = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.87 background_color = #
+                         000000 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.88 border_color = #
+                     000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.89 background_color_hover = #
+                               000000 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.90 border_color_hover = #
+                           000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.91 background_color_pressed = #
+                                 000000 80
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.92 border_color_pressed = #
+                             000000 0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.93 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 83--93
+[]
+ []
+
+
+Overfull \hbox (35.0516pt too wide) in paragraph at lines 83--93
+[]\OML/cmm/m/it/10 idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.12457pt too wide) in paragraph at lines 83--93
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 border[]ides \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (91.50327pt too wide) in paragraph at lines 83--93
+\OML/cmm/m/it/10 Bbackground[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (100.59474pt too wide) in paragraph at lines 83--93
+\OT1/cmr/m/n/10 00000080\OML/cmm/m/it/10 border[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (142.8194pt too wide) in paragraph at lines 83--93
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 background[]olor[]over \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (124.99757pt too wide) in paragraph at lines 83--93
+\OT1/cmr/m/n/10 00000080\OML/cmm/m/it/10 border[]olor[]over \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (151.44289pt too wide) in paragraph at lines 83--93
+\OT1/cmr/m/n/10 0000000\OML/cmm/m/it/10 background[]olor[]ressed \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (133.62106pt too wide) in paragraph at lines 83--93
+\OT1/cmr/m/n/10 00000080\OML/cmm/m/it/10 border[]olor[]ressed \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (35.0001pt too wide) in paragraph at lines 83--93
+\OT1/cmr/m/n/10 0000000$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.94 #
+      ===============================================
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 #=
+       ==============================================
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no = in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 94--95
+[] 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.96 #
+       Panel
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 # P
+        anel
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.97 panel_
+           items = LTSBC
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--114
+[]
+ []
+
+
+Overfull \hbox (35.61981pt too wide) in paragraph at lines 96--114
+[]\OML/cmm/m/it/10 tems \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (88.67691pt too wide) in paragraph at lines 96--114
+\OML/cmm/m/it/10 LTSBCpanel[]ize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (81.76242pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 panel[]argin \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (79.409pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 panel[]adding \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (108.89706pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 000\OML/cmm/m/it/10 panel[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (55.74323pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 wm[]enu \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (58.87358pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 panel[]ock \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (75.0231pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 panel[]osition \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (162.4698pt too wide) in paragraph at lines 96--114
+\OML/cmm/m/it/10 bottomcenterhorizontalpanel[]ayer \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (83.14319pt too wide) in paragraph at lines 96--114
+\OML/cmm/m/it/10 toppanel[]onitor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (115.80444pt too wide) in paragraph at lines 96--114
+\OML/cmm/m/it/10 allprimary[]onitor[]irst \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (96.81284pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 panel[]indow[]ame \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (122.61734pt too wide) in paragraph at lines 96--114
+\OML/cmm/m/it/10 tint\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 disable[]ransparency \OT
+1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (77.77231pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 mouse[]ffects \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (68.79062pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 font[]hadow \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (100.9773pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 mouse[]over[]con[]sb \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (134.87865pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 100010\OML/cmm/m/it/10 mouse[]ressed[]con[]sb \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (25.00008pt too wide) in paragraph at lines 96--114
+\OT1/cmr/m/n/10 10000$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.115 #
+        Launchers
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 # L
+         aunchers
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.116 launcher_
+               icon_theme = Papirus
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.129 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 115--129
+[]
+ []
+
+
+Overfull \hbox (56.43703pt too wide) in paragraph at lines 115--129
+[]\OML/cmm/m/it/10 con[]heme \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (121.67255pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 Papiruslauncher[]adding \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (97.32916pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 808\OML/cmm/m/it/10 launcher[]con[]sb \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (103.48933pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 10000\OML/cmm/m/it/10 launcher[]ooltip \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (107.2673pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 startup[]otifications \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.38786pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 launcher[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (138.08191pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 launcher[]con[]heme[]verride \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (132.89429pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 launcher[]con[]ackground[]d \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (90.97835pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 launcher[]con[]ize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.28287pt too wide) in paragraph at lines 115--129
+\OT1/cmr/m/n/10 24\OML/cmm/m/it/10 launcher[]tem[]pp \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (168.7965pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 =usr=share=applications=chromium \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (156.55377pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 browser:desktoplauncher[]tem[]pp \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (271.58044pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 =usr=share=applications=firefox:desktoplauncher[]tem[]pp \OT1/
+cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (137.55954pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 =usr=share=applications=exo \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (25.03203pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 file \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (160.9925pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 manager:desktoplauncher[]tem[]pp \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (148.01215pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 =usr=share=applications=xfce\OT1/cmr/m/n/10 4 \OMS/cmsy/m/n/10
+ ^^@
+ []
+
+
+Overfull \hbox (76.08768pt too wide) in paragraph at lines 115--129
+\OML/cmm/m/it/10 terminal:desktop$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.130 #
+        Panel Autohide
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 # P
+         anel Autohide
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 autohide_
+               show_timeout = 0.5
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.136 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 130--136
+[]
+ []
+
+
+Overfull \hbox (67.1831pt too wide) in paragraph at lines 130--136
+[]\OML/cmm/m/it/10 how[]imeout \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.94328pt too wide) in paragraph at lines 130--136
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 autohide[]
+ide[]imeout \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (89.65428pt too wide) in paragraph at lines 130--136
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 autohide[]
+eight \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (63.66364pt too wide) in paragraph at lines 130--136
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 strut[]olicy \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (46.65305pt too wide) in paragraph at lines 130--136
+\OML/cmm/m/it/10 follow[]ize$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.137 #
+        Taskbar
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 # T
+         askbar
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.138 taskbar_
+              mode = single_desktop
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.151 taskbar_name_font_color = #
+                                 8a8a8a 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.152 taskbar_name_active_font_color = #
+                                        ffffff 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.156 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 137--156
+[]
+ []
+
+
+Overfull \hbox (32.85999pt too wide) in paragraph at lines 137--156
+[]\OML/cmm/m/it/10 ode \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (157.5587pt too wide) in paragraph at lines 137--156
+\OML/cmm/m/it/10 single[]esktoptaskbar[]ide[]f[]mpty \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (83.6439pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 taskbar[]adding \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (118.13199pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 004\OML/cmm/m/it/10 taskbar[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (134.21568pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 taskbar[]ctive[]ackground[]d \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (72.91562pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 taskbar[]ame \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (126.80418pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 taskbar[]ide[]nactive[]asks \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (146.14442pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 taskbar[]ide[]ifferent[]onitor \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (169.19542pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 taskbar[]lways[]how[]ll[]esktop[]asks \OT1/cm
+r/m/n/10 =
+ []
+
+
+Overfull \hbox (107.80952pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 taskbar[]ame[]adding \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (137.29759pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 88\OML/cmm/m/it/10 taskbar[]ame[]ackground[]d \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (158.3813pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 taskbar[]ame[]ctive[]ackground[]d \OT1/cmr/m/
+n/10 =
+ []
+
+
+Overfull \hbox (92.5604pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 taskbar[]ame[]ont \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (223.01451pt too wide) in paragraph at lines 137--156
+\OML/cmm/m/it/10 UbuntuCondensedBold\OT1/cmr/m/n/10 12\OML/cmm/m/it/10 taskbar[
+]ame[]ont[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (181.24pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 a\OT1/cmr/
+m/n/10 8\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 taskbar[]ame[]cti
+ve[]ont[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (154.97433pt too wide) in paragraph at lines 137--156
+\OML/cmm/m/it/10 ffffff\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 taskbar[]istribute[]
+ize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (90.15912pt too wide) in paragraph at lines 137--156
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 taskbar[]ort[]rder \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (73.44841pt too wide) in paragraph at lines 137--156
+\OML/cmm/m/it/10 nonetask[]lign \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (17.42021pt too wide) in paragraph at lines 137--156
+\OML/cmm/m/it/10 left$ 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+! You can't use `macro parameter character #' in vertical mode.
+l.157 #
+        Tasks
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 # T
+         asks
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.158 task_
+           text = 1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.174 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 157--174
+[]
+ []
+
+
+Overfull \hbox (28.059pt too wide) in paragraph at lines 157--174
+[]\OML/cmm/m/it/10 ext \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (52.8525pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 task[]con \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (71.9963pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 task[]entered \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (86.71129pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 urgent[]b[]f[]link \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (102.13936pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 20\OML/cmm/m/it/10 task[]aximum[]ize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (89.24004pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 15040\OML/cmm/m/it/10 task[]adding \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (72.82947pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 222\OML/cmm/m/it/10 task[]ooltip \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (93.72803pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 task[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (119.81175pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 task[]ctive[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (123.14365pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 task[]rgent[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (134.9581pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 task[]conified[]ackground[]d \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (61.56033pt too wide) in paragraph at lines 157--174
+\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 mouse[]eft \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (128.27655pt too wide) in paragraph at lines 157--174
+\OML/cmm/m/it/10 toggle[]conifymouse[]iddle \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (83.13396pt too wide) in paragraph at lines 157--174
+\OML/cmm/m/it/10 nonemouse[]ight \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.6125pt too wide) in paragraph at lines 157--174
+\OML/cmm/m/it/10 closemouse[]croll[]p \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.14688pt too wide) in paragraph at lines 157--174
+\OML/cmm/m/it/10 togglemouse[]croll[]own \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (33.30125pt too wide) in paragraph at lines 157--174
+\OML/cmm/m/it/10 iconify$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.175 #
+        Task Icons
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 # T
+         ask Icons
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.176 task_
+           icon_asb = 70 0 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.180 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 175--180
+[]
+ []
+
+
+Overfull \hbox (42.87874pt too wide) in paragraph at lines 175--180
+[]\OML/cmm/m/it/10 con[]sb \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (107.75307pt too wide) in paragraph at lines 175--180
+\OT1/cmr/m/n/10 7000\OML/cmm/m/it/10 task[]ctive[]con[]sb \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (121.08499pt too wide) in paragraph at lines 175--180
+\OT1/cmr/m/n/10 100010\OML/cmm/m/it/10 task[]rgent[]con[]sb \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (127.89943pt too wide) in paragraph at lines 175--180
+\OT1/cmr/m/n/10 10000\OML/cmm/m/it/10 task[]conified[]con[]sb \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 175--180
+\OT1/cmr/m/n/10 7000$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.181 #
+        Fonts
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 # F
+         onts
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no k in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.182 task_
+           font = Ubuntu Condensed Regular 11
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.183 task_font_color = #
+                         FFFFFF 65
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.184 task_active_font_color = #
+                                66BB6A 90
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.185 task_urgent_font_color = #
+                                00A9FF 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.186 task_iconified_font_color = #
+                                   FFFFFF 65
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.188 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 181--188
+[]
+ []
+
+
+Overfull \hbox (30.20029pt too wide) in paragraph at lines 181--188
+[]\OML/cmm/m/it/10 ont \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (199.56078pt too wide) in paragraph at lines 181--188
+\OML/cmm/m/it/10 UbuntuCondensedRegular\OT1/cmr/m/n/10 11\OML/cmm/m/it/10 task[
+]ont[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (153.72948pt too wide) in paragraph at lines 181--188
+\OML/cmm/m/it/10 FFFFFF\OT1/cmr/m/n/10 65\OML/cmm/m/it/10 task[]ctive[]ont[]olo
+r \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (148.8183pt too wide) in paragraph at lines 181--188
+\OT1/cmr/m/n/10 66\OML/cmm/m/it/10 BB\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 A\OT1/cm
+r/m/n/10 90\OML/cmm/m/it/10 task[]rgent[]ont[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (165.09807pt too wide) in paragraph at lines 181--188
+\OT1/cmr/m/n/10 00\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 FF\OT1/cm
+r/m/n/10 100\OML/cmm/m/it/10 task[]conified[]ont[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (120.70738pt too wide) in paragraph at lines 181--188
+\OML/cmm/m/it/10 FFFFFF\OT1/cmr/m/n/10 65\OML/cmm/m/it/10 font[]hadow \OT1/cmr/
+m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 181--188
+\OT1/cmr/m/n/10 0$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.189 #
+        System tray (notification area)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 # S
+         ystem tray (notification area)
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.190 systray_
+              padding = 7 0 5
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.196 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 189--196
+[]
+ []
+
+
+Overfull \hbox (45.44942pt too wide) in paragraph at lines 189--196
+[]\OML/cmm/m/it/10 adding \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (118.1633pt too wide) in paragraph at lines 189--196
+\OT1/cmr/m/n/10 705\OML/cmm/m/it/10 systray[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (66.30334pt too wide) in paragraph at lines 189--196
+\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 systray[]ort \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (124.49411pt too wide) in paragraph at lines 189--196
+\OML/cmm/m/it/10 ascendingsystray[]con[]ize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (86.10455pt too wide) in paragraph at lines 189--196
+\OT1/cmr/m/n/10 24\OML/cmm/m/it/10 systray[]con[]sb \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (108.91992pt too wide) in paragraph at lines 189--196
+\OT1/cmr/m/n/10 100030\OML/cmm/m/it/10 systray[]onitor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 189--196
+\OT1/cmr/m/n/10 1$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.197 #
+        Clock
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 # C
+         lock
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.198 time1_
+            format = %I:%M %d %b
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.204 clock_font_color = #
+                          ffffff 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.214 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 197--214
+[]
+ []
+
+
+Overfull \hbox (43.05333pt too wide) in paragraph at lines 197--214
+[]\OML/cmm/m/it/10 ormat \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (68.54599pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 time\OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 ormat \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (55.69295pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 time\OT1/cmr/m/n/10 1[]\OML/cmm/m/it/10 ont \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (190.76268pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 UbuntuCondensedBold\OT1/cmr/m/n/10 13\OML/cmm/m/it/10 time\OT1
+/cmr/m/n/10 1[]\OML/cmm/m/it/10 imezone \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (77.04669pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 time\OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 imezone \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (55.69295pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 time\OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 ont \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (187.54338pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 UbuntuCondensedBold\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 clock[]o
+nt[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (118.17198pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 ffffff\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 clock[]adding \OT1/c
+mr/m/n/10 =
+ []
+
+
+Overfull \hbox (101.82646pt too wide) in paragraph at lines 197--214
+\OT1/cmr/m/n/10 60\OML/cmm/m/it/10 clock[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (65.92786pt too wide) in paragraph at lines 197--214
+\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 clock[]ooltip \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (137.89122pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 Todayisclock[]ooltip[]imezone \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (98.97514pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 clock[]click[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (148.03728pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 gsimplecalclock[]click[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (151.20514pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 gsimplecalclock[]click[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (106.13304pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 clock[]wheel[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (105.56786pt too wide) in paragraph at lines 197--214
+\OML/cmm/m/it/10 clock[]wheel[]ommand \OT1/cmr/m/n/10 =$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.215 #
+        Battery
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 # B
+         attery
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.216 battery_
+              tooltip = 1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.221 battery_font_color = #
+                            ffffff 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.232 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 215--232
+[]
+ []
+
+
+Overfull \hbox (39.03888pt too wide) in paragraph at lines 215--232
+[]\OML/cmm/m/it/10 ooltip \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (88.97412pt too wide) in paragraph at lines 215--232
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 battery[]ow[]tatus \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (84.83836pt too wide) in paragraph at lines 215--232
+\OT1/cmr/m/n/10 20\OML/cmm/m/it/10 battery[]ow[]md \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (36.91748pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 notify \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (136.10097pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 send\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 BatteryLow\OT1/cmr/m/n/1
+0 !"\OML/cmm/m/it/10 bat\OT1/cmr/m/n/10 1[]\OML/cmm/m/it/10 ont \OT1/cmr/m/n/10
+ =
+ []
+
+
+Overfull \hbox (162.10495pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 UbuntuCondensedBold\OT1/cmr/m/n/10 12\OML/cmm/m/it/10 bat\OT1/
+cmr/m/n/10 2[]\OML/cmm/m/it/10 ont \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (206.91844pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 UbuntuCondensedRegular\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 batter
+y[]ont[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (127.43124pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 ffffff\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 battery[]adding \OT1
+/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (111.08572pt too wide) in paragraph at lines 215--232
+\OT1/cmr/m/n/10 55\OML/cmm/m/it/10 battery[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (65.19176pt too wide) in paragraph at lines 215--232
+\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 battery[]ide \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (123.23445pt too wide) in paragraph at lines 215--232
+\OT1/cmr/m/n/10 101\OML/cmm/m/it/10 battery[]click[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (33.44917pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 xfce\OT1/cmr/m/n/10 4 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.53017pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 power \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (47.70616pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 manager \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (145.42264pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 settingsbattery[]click[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (33.44917pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 xfce\OT1/cmr/m/n/10 4 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (34.53017pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 power \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (47.70616pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 manager \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (148.5905pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 settingsbattery[]click[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (115.3923pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 battery[]wheel[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.82712pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 battery[]wheel[]ommand \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (81.60945pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 ac[]onnected[]md \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (94.65877pt too wide) in paragraph at lines 215--232
+\OML/cmm/m/it/10 ac[]isconnected[]md \OT1/cmr/m/n/10 =$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.233 #
+        Tooltip
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 # T
+         ooltip
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.234 tooltip_
+              show_timeout = 0
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.238 tooltip_font_color = #
+                            fafafa 100
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.240 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 233--240
+[]
+ []
+
+
+Overfull \hbox (67.1831pt too wide) in paragraph at lines 233--240
+[]\OML/cmm/m/it/10 how[]imeout \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (97.20247pt too wide) in paragraph at lines 233--240
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 tooltip[]ide[]imeout \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (79.02307pt too wide) in paragraph at lines 233--240
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 tooltip[]adding \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (108.51114pt too wide) in paragraph at lines 233--240
+\OT1/cmr/m/n/10 53\OML/cmm/m/it/10 tooltip[]ackground[]d \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (85.51208pt too wide) in paragraph at lines 233--240
+\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 tooltip[]ont[]olor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (107.54842pt too wide) in paragraph at lines 233--240
+\OML/cmm/m/it/10 fafafa\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 tooltip[]ont \OT1/cm
+r/m/n/10 =
+ []
+
+
+Overfull \hbox (55.11462pt too wide) in paragraph at lines 233--240
+\OML/cmm/m/it/10 NotoSans\OT1/cmr/m/n/10 10$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.241 #
+        Mouse
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.241 # M
+         ouse
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.242 mouse_
+            middle = none
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.246 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 241--246
+[]
+ []
+
+
+Overfull \hbox (39.84332pt too wide) in paragraph at lines 241--246
+[]\OML/cmm/m/it/10 iddle \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (83.13396pt too wide) in paragraph at lines 241--246
+\OML/cmm/m/it/10 nonemouse[]ight \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.42157pt too wide) in paragraph at lines 241--246
+\OML/cmm/m/it/10 nonemouse[]croll[]p \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.14688pt too wide) in paragraph at lines 241--246
+\OML/cmm/m/it/10 togglemouse[]croll[]own \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (33.30125pt too wide) in paragraph at lines 241--246
+\OML/cmm/m/it/10 iconify$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.247 #
+        End of config
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 # E
+         nd of config
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+)
+! Emergency stop.
+<*> /tmp/nvimP91z2y/1
+                     
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 12 strings out of 493029
+ 214 string characters out of 6136234
+ 62315 words of memory out of 5000000
+ 3644 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,4n,12p,88b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

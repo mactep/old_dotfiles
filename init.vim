@@ -30,6 +30,8 @@ if dein#load_state('/home/mactep/.config/nvim/')
   call dein#add('vim-python/python-syntax')
   call dein#add('pangloss/vim-javascript')
   call dein#add('MaxMEllon/vim-jsx-pretty')
+  "call dein#add('donRaphaco/neotex')
+  "call dein#add('lervag/vimtex')
 
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
@@ -57,14 +59,14 @@ if dein#check_install()
 endif
 
 " general settings
-set number 						" line number
-set encoding=utf8 					" default encoding
-set list 						" show invisibles
+set number relativenumber
+set encoding=utf8
+"set list 						" show invisibles
+"set listchars=eol:¬,tab:..,trail:.
 set termguicolors 					" this bugs on the xfce terminal
 let g:gruvbox_contrast_dark='hard'
 set background=dark
 colorscheme gruvbox
-set listchars=eol:¬,tab:..,trail:.
 set clipboard=unnamed 					" paste from system clipboard
 set autochdir 						" automaticaly ch into the file directory
 set splitbelow
@@ -101,9 +103,6 @@ tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-l> <C-\><C-n><C-w>l
 
-nnoremap <leader>t :call Term_toggle(10)<cr>
-tnoremap <leader>t <C-\><C-n>:call Term_toggle(10)<cr>
-
 " delimitMate settings
 let delimitMate_jump_expansion = 0
 let delimitMate_expand_cr = 1
@@ -128,13 +127,13 @@ map <C-n> :NERDTreeToggle<CR>
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#auto_complete_start_length = 1
 let g:deoplete#enable_smart_case = 1
-set omnifunc=syntaxcomplete#Complete
 set completeopt=longest,menuone,noinsert
 imap <expr> <Tab> pumvisible() ? "\<C-y>" : (neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<Tab>")
 imap <C-k> <Plug>(neosnippet_expand_or_jump)
 smap <C-k> <Plug>(neosnippet_expand_or_jump)
 xmap <C-k> <Plug>(neosnippet_expand_target)
 let g:neosnippet#enable_completed_snippet = 1
+"set omnifunc=syntaxcomplete#Complete
 "if has('conceal')
   "set conceallevel=2 concealcursor=niv
 "endif
@@ -147,21 +146,21 @@ let g:neosnippet#enable_completed_snippet = 1
 " python settings
 autocmd FileType python setlocal ai sw=4 ts=4 tw=79 sts=4 sr cc=80 et
 autocmd FileType python setlocal omnifunc=python3complete#Complete
-"autocmd FileType python setlocal tags+=/home/mactep/.config/nvim/tags/python.tags
 let g:python_highlight_all=1
 let g:deoplete#sources#jedi#python_path = '/usr/bin/python3'
 let g:deoplete#sources#jedi#show_docstring = 1
 let g:syntastic_python_checkers = ['flake8']
+"autocmd FileType python setlocal tags+=/home/mactep/.config/nvim/tags/python.tags
 
 " javascript settings
 autocmd Filetype javascript,js setlocal ai sw=2 ts=2 et
-"autocmd FileType javascript,js setlocal tags+=/home/mactep/.config/nvim/tags/js.tags
-let g:deoplete#sources#ternjs#tern_bin = '/usr/bin/tern'
+let g:deoplete#sources#ternjs#tern_bin = '/usr/local/bin/tern'
 let g:deoplete#sources#ternjs#types = 1
 let g:deoplete#sources#ternjs#docs = 1
 let g:deoplete#sources#ternjs#omit_object_prototype = 0
 let g:deoplete#sources#ternjs#include_keywords = 1
 let g:syntastic_javascript_checkers = ['eslint']
+"autocmd FileType javascript,js setlocal tags+=/home/mactep/.config/nvim/tags/js.tags
 " Use tern_for_vim.
 "let g:tern#command = ["tern"]
 "let g:tern#arguments = ["--persistent"]
@@ -178,8 +177,37 @@ let g:vim_jsx_pretty_colorful_config = 1
 " C settings
 let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-3.8/lib/libclang.so'
 let g:deoplete#sources#clang#clang_header = '/usr/lib/llvm-3.8/lib/clang'
-"autocmd FileType arduino,c setlocal tags+=/home/mactep/.config/nvim/tags/c.tags
 autocmd FileType arduino,c setlocal ts=2 sts=2 sw=2 et
+"autocmd FileType arduino,c setlocal tags+=/home/mactep/.config/nvim/tags/c.tags
+
+" LaTeX
+" pt_BR spelling needs to be generated, just google it
+autocmd FileType tex setlocal spelllang=pt spell
+autocmd FileType tex :NeoTex
+let g:syntastic_tex_checkers = ['']
+let g:neotex_enabled = 2
+"let g:neotex_pdflatex_add_options = '-synctex=1'
+"let g:neotex_latexdiff = 1
+"let g:tex_flavor = 'latex'
+"let g:vimtex_view_method = 'zathura'
+
+function! Zathura_forward_search()
+    let zathura = 'silent !zathura --synctex-forward '
+    let position = line('.').':'.col('.').':'
+    let tex_file = b:neotex_tempname
+    let pdf_file = fnameescape(expand('%:p:r')).'.pdf &'
+    ":echo(zathura.position.tex_file.' '.pdf_file)
+    exec zathura.position.tex_file.' '.pdf_file
+    "exec "silent !zathura --synctex-forward ".line(".").":".col(".").":".b:neotex_tempname." ".fnameescape(expand('%:p:r')).".pdf &"
+endfunction
+au FileType tex nmap <F5> :call Zathura_forward_search()<CR>
+
+" need to get the temp file name (I've modified the neotex plugin)
+"function! Zathura_fsearch()
+"	exec "silent !zathura --synctex-forward ".line(".").":".col(".").":".b:neotex_tempname." ".expand('%:r').".pdf &"
+"	":echo("silent !zathura --synctex-forward ".line(".").":".col(".").":".b:neotex_tempname." ".expand('%:r').".pdf &")
+"endfunction
+"au FileType tex nmap <Leader>f :call Zathura_fsearch()<CR>
 
 let g:term_buf = 0
 let g:term_win = 0
@@ -199,3 +227,6 @@ function! Term_toggle(height)
         let g:term_win = win_getid()
     endif
 endfunction
+nnoremap <leader>t :call Term_toggle(10)<cr>
+tnoremap <leader>t <C-\><C-n>:call Term_toggle(10)<cr>
+
