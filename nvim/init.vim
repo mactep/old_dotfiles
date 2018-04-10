@@ -166,21 +166,22 @@ autocmd FileType arduino,c setlocal ts=2 sts=2 sw=2 et
 " pt_BR spelling needs to be generated
 " search for libreoffice extension Vero
 autocmd FileType tex setlocal spelllang=pt-br spell
-autocmd FileType tex :NeoTex
 let g:syntastic_tex_checkers = ['']
-let g:neotex_enabled = 2
+"let g:neotex_enabled = 2
+"autocmd FileType tex :NeoTex
 "let g:vimtex_view_method = 'zathura'
 "let g:neotex_pdflatex_add_options = '-synctex=1'
 "let g:neotex_latexdiff = 1
 "let g:tex_flavor = 'latex'
 
+" IMPORTANT: zathura needs to be opened manually
 function! Latex_compile_and_jump()
     let zathura = 'zathura --synctex-forward '
     let position = line('.').':'.col('.').':'
     let tex_file = b:neotex_tempname
     let pdf_file = fnameescape(expand('%:p:r')).'.pdf'
     let pdflatex = 'silent !pdflatex -synctex=1 '
-    exec pdflatex.tex_file.' '.pdf_file.' || '.zathura.position.tex_file.' '.pdf_file
+    exec pdflatex.tex_file.' '.pdf_file.'; '.zathura.position.tex_file.' '.pdf_file.' &'
 endfunction
 nmap <F5> :call Latex_compile_and_jump()<CR>
 
