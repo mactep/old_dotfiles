@@ -28,6 +28,7 @@ if dein#load_state('/home/mactep/.config/nvim/')
   call dein#add('vim-python/python-syntax')
   call dein#add('pangloss/vim-javascript')
   call dein#add('MaxMEllon/vim-jsx-pretty')
+  "call dein#add('mactepp/neotex')
 
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
@@ -54,18 +55,18 @@ endif
 " general settings
 set number relativenumber
 set encoding=utf8
-"set list 						" show invisibles
+"set list 					" show invisibles
 "set listchars=eol:¬,tab:..,trail:.
-set termguicolors 					" this bugs on the xfce terminal
+set termguicolors
 let g:gruvbox_contrast_dark='hard'
 set background=dark
 colorscheme gruvbox
-set clipboard=unnamed 					" paste from system clipboard
-set autochdir 						" automaticaly ch into the file directory
-set splitbelow
-set splitright
-let g:airline_powerline_fonts=0 			" need to install powerline fonts
-"set foldmethod=indent
+set clipboard=unnamed 				" paste from system clipboard
+set autochdir 					" automaticaly ch into the file directory
+set splitbelow					" open windows bellow the current window
+set splitright					" open windows to the right of the current window
+let g:airline_powerline_fonts=1 		" apt install fonts-powerline
+"set foldmethod=indent				" fold code based on indentation
 
 " shortcuts
 inoremap <S-Tab> <C-d>
@@ -100,7 +101,7 @@ let delimitMate_jump_expansion = 0
 let delimitMate_expand_cr = 1
 
 " gutentags
-" TODO: hide the tag file inside .git folder
+" TODO: hide the 'tags' file inside .git folder
 let g:gutentags_ctags_tagfile=".tags"
 set tags+=./.tags;
 
@@ -151,7 +152,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 "autocmd FileType javascript,js setlocal tags+=/home/mactep/.config/nvim/tags/js.tags
 
 " react.js settings
-let g:jsx_ext_required = 0 				" Allow JSX in normal JS files
+let g:jsx_ext_required = 0 			" Allow JSX in normal JS files
 let g:vim_jsx_pretty_enable_jsx_highlight = 1
 let g:vim_jsx_pretty_colorful_config = 1
 
@@ -163,24 +164,19 @@ autocmd FileType arduino,c setlocal ts=2 sts=2 sw=2 et
 
 " LaTeX
 " TODO: set checkers to act like texstudio
-" pt_BR spelling needs to be generated
-" search for libreoffice extension Vero
+" pt-br dictionary needs to be compiled manually
 autocmd FileType tex setlocal spelllang=pt-br spell
 let g:syntastic_tex_checkers = ['']
-"let g:neotex_enabled = 2
-"autocmd FileType tex :NeoTex
-"let g:vimtex_view_method = 'zathura'
-"let g:neotex_pdflatex_add_options = '-synctex=1'
-"let g:neotex_latexdiff = 1
-"let g:tex_flavor = 'latex'
 
 " IMPORTANT: zathura needs to be opened manually
+" TODO: use a tempfile to avoid saving the file all the time
 function! Latex_compile_and_jump()
     let zathura = 'zathura --synctex-forward '
     let position = line('.').':'.col('.').':'
     let tex_file = b:neotex_tempname
     let pdf_file = fnameescape(expand('%:p:r')).'.pdf'
-    let pdflatex = 'silent !pdflatex -synctex=1 '
+    let tex_file = fnameescape(expand('%:p'))
+    let pdflatex = 'silent !pdflatex -synctex=1 -interaction=nonstopmode '
     exec pdflatex.tex_file.' '.pdf_file.'; '.zathura.position.tex_file.' '.pdf_file.' &'
 endfunction
 nmap <F5> :call Latex_compile_and_jump()<CR>
