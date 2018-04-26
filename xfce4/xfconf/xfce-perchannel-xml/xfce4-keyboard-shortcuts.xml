@@ -68,6 +68,7 @@
       <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F9" type="string" value="/home/mactep/decorate.py"/>
+      <property name="&lt;Primary&gt;Print" type="string" value="xfce4-screenshooter -r"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -183,6 +184,12 @@
       <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
       <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;Up" type="string" value="tile_up_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;Down" type="string" value="tile_down_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;Left" type="string" value="tile_up_left_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;Right" type="string" value="tile_up_right_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Left" type="string" value="tile_down_left_key"/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;Right" type="string" value="tile_down_right_key"/>
     </property>
   </property>
   <property name="providers" type="array">

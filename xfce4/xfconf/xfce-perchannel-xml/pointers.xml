@@ -4,6 +4,6 @@
   <property name="USB_Laser_Game_Mouse" type="empty">
     <property name="RightHanded" type="bool" value="true"/>
     <property name="Threshold" type="int" value="1"/>
-    <property name="Acceleration" type="double" value="0.000000"/>
+    <property name="Acceleration" type="double" value="2.500000"/>
   </property>
 </channel>

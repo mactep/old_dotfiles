@@ -28,6 +28,7 @@ if dein#load_state('/home/mactep/.config/nvim/')
   call dein#add('vim-python/python-syntax')
   call dein#add('pangloss/vim-javascript')
   call dein#add('MaxMEllon/vim-jsx-pretty')
+  call dein#add('lervag/vimtex')
   "call dein#add('mactepp/neotex')
 
   call dein#add('Shougo/neosnippet.vim')
@@ -55,8 +56,8 @@ endif
 " general settings
 set number relativenumber
 set encoding=utf8
-"set list 					" show invisibles
-"set listchars=eol:¬,tab:..,trail:.
+set list 					" show invisibles
+set listchars=eol:¬,tab:..,trail:.
 set termguicolors
 let g:gruvbox_contrast_dark='hard'
 set background=dark
@@ -65,7 +66,6 @@ set clipboard=unnamed 				" paste from system clipboard
 set autochdir 					" automaticaly ch into the file directory
 set splitbelow					" open windows bellow the current window
 set splitright					" open windows to the right of the current window
-let g:airline_powerline_fonts=1 		" apt install fonts-powerline
 "set foldmethod=indent				" fold code based on indentation
 
 " shortcuts
@@ -95,6 +95,12 @@ tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-l> <C-\><C-n><C-w>l
+
+" airline
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
 
 " delimitMate settings
 let delimitMate_jump_expansion = 0
@@ -165,21 +171,33 @@ autocmd FileType arduino,c setlocal ts=2 sts=2 sw=2 et
 " LaTeX
 " TODO: set checkers to act like texstudio
 " pt-br dictionary needs to be compiled manually
-autocmd FileType tex setlocal spelllang=pt-br spell
+autocmd FileType tex setlocal spelllang=pt-br spell tw=79 ai sw=4 ts=4 cc=80
 let g:syntastic_tex_checkers = ['']
+let g:vimtex_view_method = 'zathura'
+if !exists('g:deoplete#omni#input_patterns')
+    let g:deoplete#omni#input_patterns = {}
+endif
+let g:deoplete#omni#input_patterns.tex = g:vimtex#re#deoplete
 
-" IMPORTANT: zathura needs to be opened manually
-" TODO: use a tempfile to avoid saving the file all the time
-function! Latex_compile_and_jump()
-    let zathura = 'zathura --synctex-forward '
-    let position = line('.').':'.col('.').':'
-    let tex_file = b:neotex_tempname
-    let pdf_file = fnameescape(expand('%:p:r')).'.pdf'
-    let tex_file = fnameescape(expand('%:p'))
-    let pdflatex = 'silent !pdflatex -synctex=1 -interaction=nonstopmode '
-    exec pdflatex.tex_file.' '.pdf_file.'; '.zathura.position.tex_file.' '.pdf_file.' &'
-endfunction
-nmap <F5> :call Latex_compile_and_jump()<CR>
+"" IMPORTANT: zathura needs to be opened manually
+"" TODO: use a tempfile to avoid saving the file all the time
+"function! Latex_compile_and_jump()
+"    let zathura = 'zathura --synctex-forward '
+"    let position = line('.').':'.col('.').':'
+"    "let tex_file = b:neotex_tempname
+"    let pdf_file = fnameescape(expand('%:p:r')).'.pdf'
+"    let tex_file = fnameescape(expand('%:p'))
+"    let pdflatex = 'silent !pdflatex -synctex=1 -interaction=nonstopmode '
+"    exec pdflatex.tex_file.' '.pdf_file.'; '.zathura.position.tex_file.' '.pdf_file.' &'
+"endfunction
+"function! Latex_compile_bib()
+"    let bibtex = '!bibtex '
+"    let bib_file = fnameescape(expand('%:r'))
+"    echo(bib_file)
+"    exec bibtex.bib_file
+"endfunction
+"nmap <F5> :call Latex_compile_and_jump()<CR>
+"nmap <leader>lb :call Latex_compile_bib()<CR>
 
 let g:term_buf = 0
 let g:term_win = 0
