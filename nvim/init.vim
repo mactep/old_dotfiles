@@ -16,15 +16,10 @@ if dein#load_state('$HOME/.config/nvim/')
     call dein#add('morhetz/gruvbox')
     call dein#add('Shougo/defx.nvim')
     call dein#add('airblade/vim-gitgutter')
-    "call dein#add('itchyny/lightline.vim')
-    "call dein#add('scrooloose/nerdtree')
-    "call dein#add('jistr/vim-nerdtree-tabs')
-    "call dein#add('Xuyuanp/nerdtree-git-plugin')
 
     call dein#add('scrooloose/nerdcommenter')
     call dein#add('Raimondi/delimitMate')
     call dein#add('scrooloose/syntastic')
-    call dein#add('chrisbra/Colorizer')
     call dein#add('ludovicchabant/vim-gutentags')
 
     call dein#add('vim-python/python-syntax')
@@ -39,7 +34,6 @@ if dein#load_state('$HOME/.config/nvim/')
     call dein#add('wokalski/autocomplete-flow')
     call dein#add('zchee/deoplete-clang')
     "call dein#add('carlitux/deoplete-ternjs')
-    "call dein#add('ternjs/tern_for_vim')
 
     " Required:
     call dein#end()
@@ -124,6 +118,8 @@ let delimitMate_expand_cr = 1
 
 " gutentags
 let g:gutentags_cache_dir = "~/.config/nvim/cache/"
+set statusline+=%{gutentags#statusline()}
+"let g:gutentags_project_root = ["*.py"]  " too greedy?
 
 " syntastic
 set statusline+=%#warningmsg#
@@ -135,9 +131,13 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 noremap <leader>sr :SyntasticReset<CR>
 noremap <leader>sc :SyntasticCheck<CR>
+noremap <leader>st :SyntasticToggleMode<CR>
 
 " dex settings
-nmap <silent><C-N> :Defx -split=vertical -winwidth=35 -direction=topleft -toggle `expand('%:p:h')` -search=`expand('%:p')`<cr>
+nmap <silent><C-N> :Defx -split=vertical -winwidth=35
+    \ -direction=topleft -toggle `expand('%:p:h')`
+    \ -search=`expand('%:p')`<cr>
+
 aug defx_close
     au!
     au WinEnter * if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&filetype") == "defx"|q|endif
@@ -163,7 +163,7 @@ function! s:defx_my_settings() abort
     nnoremap <silent><buffer><expr> h
     \ defx#do_action('cd', ['..'])
     nnoremap <silent><buffer><expr> l
-    \ defx#do_action('open')
+    \ defx#do_action('open', 'wincmd w \| drop')
     nnoremap <silent><buffer><expr> c
     \ defx#do_action('copy')
     nnoremap <silent><buffer><expr> m
@@ -202,12 +202,14 @@ xmap <C-k> <Plug>(neosnippet_expand_target)
 let g:neosnippet#enable_completed_snippet = 1
 
 " python settings
-autocmd FileType python setlocal ai sw=4 ts=4 sts=4 sr cc=80 et
+autocmd FileType python setlocal ai ts=8 sw=4 sts=4 sr cc=80 et
 autocmd FileType python setlocal omnifunc=python3complete#Complete
+autocmd FileType python setlocal keywordprg=pydoc3
 let g:deoplete#sources#jedi#python_path = system('which python3')[:-2]
 let g:python_highlight_all=1
 let g:deoplete#sources#jedi#show_docstring = 1
 let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_python_flake8_quiet_messages = {"regex": "E501"}
 "autocmd FileType python setlocal tags+=$HOME/.config/nvim/tags/python.tags
 
 " javascript settings

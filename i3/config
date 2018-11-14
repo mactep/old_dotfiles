@@ -96,8 +96,8 @@ bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $wsX
 
 # move focused container to workspace
-bindsym Mod1+Shift+Control+Shift+Right move container to workspace next
-bindsym Mod1+Shift+Control+Shift+Left move container to workspace prev
+bindsym Mod1+Control+Shift+Right move container to workspace next
+bindsym Mod1+Control+Shift+Left move container to workspace prev
 bindsym Mod1+Shift+Control+1 move container to workspace $ws1
 bindsym Mod1+Shift+Control+2 move container to workspace $ws2
 bindsym Mod1+Shift+Control+3 move container to workspace $ws3
@@ -154,7 +154,7 @@ set $blue #458588
 set $purple #b16286
 set $aqua #689d68
 set $gray #a89984
-set $darkgray #1d2021
+set $darkgray #282828
 set $orange #fe8019
 
 # font used by i3 for titles and bars
@@ -214,5 +214,6 @@ client.urgent           $red $red $white $red $red
 #start of specific windows section
 for_window [class="TelegramDesktop"] floating enable
 for_window [class="Caja"] floating enable
+for_window [class="Engrampa"] floating enable
 for_window [class="Steam"] floating enable
 #end of specific windows section
