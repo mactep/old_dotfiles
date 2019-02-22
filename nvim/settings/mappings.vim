@@ -17,9 +17,9 @@ vnoremap <Tab> >gv
 vnoremap < <gv
 vnoremap > >gv
 
-nnoremap <C-s> :w<CR>
-vnoremap <C-s> <C-C>:w<CR>
-inoremap <C-s> <C-O>:w<CR>
+nnoremap <C-s> :update<CR>
+vnoremap <C-s> <C-C>:update<CR>
+inoremap <C-s> <C-O>:update<CR>
 
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k

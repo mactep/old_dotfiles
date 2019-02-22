@@ -49,7 +49,8 @@ endif
 
 " colorscheme
 set termguicolors
-let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_sign_column = 'bg0'
 set background=dark
 colorscheme gruvbox
 
@@ -74,6 +75,7 @@ set autoindent
 set expandtab
 set smartindent
 set smarttab
+set shiftround
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4

@@ -1,0 +1,20 @@
+# Global upload and download rate in KiB. "0" for unlimited.
+#
+throttle.global_down.max_rate.set_kb = 300
+throttle.global_up.max_rate.set_kb = 100
+
+# Default directory to save the downloaded torrents.
+#
+directory.default.set = /media/HD/Downloads
+
+# Default session directory. Make sure you don't run multiple instance
+# of rtorrent using the same session directory. Perhaps using a
+# relative path?
+#
+session.path.set = /home/pi/.rtorrent
+
+# Watch a directory for new torrents, and stop those that have been
+# deleted.
+#
+schedule2 = watch_directory,5,5,load.start=/media/HD/Downloads/watch/*.torrent
+#schedule2 = untied_directory,5,5,stop_untied=

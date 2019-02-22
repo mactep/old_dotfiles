@@ -1,5 +1,4 @@
-setlocal sr cc=100
-setlocal keywordprg=pydoc3
+setlocal cc=100 keywordprg=pydoc3 scl=yes
 let g:python_highlight_all=1
 
 " sets the default python3 binary (may not be right for some distros)
