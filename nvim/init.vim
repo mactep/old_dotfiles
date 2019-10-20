@@ -16,25 +16,7 @@ if dein#load_state('$HOME/.config/nvim/')
     call dein#add(g:dein_dir)
 
     call dein#add('morhetz/gruvbox')
-    call dein#add('itchyny/lightline.vim')
-    call dein#add('airblade/vim-gitgutter')
-    call dein#add('Shougo/defx.nvim')
-    call dein#add('kristijanhusak/defx-git')
-
-    call dein#add('ludovicchabant/vim-gutentags')
-    call dein#add('scrooloose/nerdcommenter')
-
-    call dein#add('lervag/vimtex', {'on_ft': 'tex'})
-    call dein#add('vim-python/python-syntax', {'on_ft': 'python'})
-
-    call dein#add('Shougo/deoplete.nvim')
-    call dein#add('autozimu/LanguageClient-neovim', {
-                \ 'rev': 'next',
-                \ 'build': 'bash install.sh',
-                \})
-    call dein#add('Shougo/neosnippet.vim')
-    call dein#add('Shougo/neosnippet-snippets')
-    call dein#add('Shougo/echodoc.vim')
+    call dein#add('davidhalter/jedi-vim')
 
     call dein#end()
     call dein#save_state()
@@ -48,15 +30,15 @@ if dein#check_install()
 endif
 
 " colorscheme
-set termguicolors
-let g:gruvbox_contrast_dark = 'hard'
-let g:gruvbox_sign_column = 'bg0'
-set background=dark
+" set termguicolors
+let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_sign_column='bg0'
 colorscheme gruvbox
 
 " general settings
 set autochdir
 set clipboard=unnamed
+set completeopt=longest,menuone,noinsert,noselect
 set hidden
 set inccommand=nosplit
 set list
@@ -73,25 +55,29 @@ set undofile
 " indentation
 set autoindent
 set expandtab
-set smartindent
 set smarttab
 set shiftround
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
-
-" terminal
+" neovim terminal
 autocmd TermOpen * setlocal nonumber
 autocmd TermOpen * startinsert
-autocmd BufEnter term://* startinsert
+" autocmd BufEnter term://* startinsert
+
+" netrw
+let g:netrw_banner = 0
+let g:netrw_liststyle = 0
+let g:netrw_winsize = 0
+" let g:netrw_browse_split = 4
+" let g:netrw_altv = 1
+" tree listing is bugged
+" autocmd FileType netrw setl bufhidden=delete
+
+" set completeopt=longest,menuone,noinsert,noselect
+set pumheight=12
 
 " source
-source ~/.config/nvim/settings/statusline.vim
 source ~/.config/nvim/settings/mappings.vim
-source ~/.config/nvim/settings/completion.vim
-source ~/.config/nvim/settings/gutentags.vim
-source ~/.config/nvim/settings/defx.vim
-source ~/.config/nvim/settings/echodoc.vim
-source ~/.config/nvim/settings/gitgutter.vim
 source ~/.config/nvim/settings/functions.vim

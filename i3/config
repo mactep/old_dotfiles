@@ -2,17 +2,14 @@
 set $mod Mod4
 
 # terminal
-#bindsym $mod+Return exec --no-startup-id urxvtc
-bindsym $mod+Return exec --no-startup-id gnome-terminal
-bindsym Mod1+Control+t exec --no-startup-id gnome-terminal
+bindsym $mod+Return exec --no-startup-id urxvt
+bindsym Mod1+Control+t exec --no-startup-id urxvt
 # file manager
-bindsym Mod4+e exec --no-startup-id caja
-# rofi
-bindsym Mod1+d exec --no-startup-id rofi -show drun
+bindsym Mod4+e exec --no-startup-id thunar
+# dmenu
+bindsym Mod1+d exec dmenu_run -i -nb "#1d2021" -nf "#ebdbb2" -sb "#d79921" -sf "#ebdbb2"
 # kill container
 bindsym $mod+Down kill
-# dmenu
-bindsym $mod+d exec dmenu_run
 
 # restart i3 inplace
 bindsym $mod+Shift+r restart
@@ -21,15 +18,15 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3?' -b 'Yes' 'i3-msg e
 # kill xorg server
 bindsym $mod+Shift+Escape exec pkill -15 Xorg
 
-# screenshot printscreen to ~/home
-#bindsym Print exec --no-startup-id scrot
+# printscreen
 bindsym --release Print exec --no-startup-id "import png:- | xclip -selection c -t image/png"
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
 
-#alt tab window switcher ?
-#bindsym Mod1+Tab exec rofi -show window
+# alt tab window switcher ?
+# bindsym Mod1+Tab alttab
+bindsym Mod1+Tab exec "~/.config/i3/switcher.sh"
 bindsym Mod1+Tab workspace next
 
 # vim key navigations
@@ -51,8 +48,8 @@ bindsym $mod+s split h
 bindsym $mod+v split v
 
 # scratchpad
-bindsym grave scratchpad show
-bindsym $mod+grave move scratchpad
+bindsym $mod+plus scratchpad show
+bindsym $mod+minus move scratchpad
 
 # floating windows
 floating_modifier $mod
@@ -62,10 +59,11 @@ bindsym $mod+Shift+space focus mode_toggle
 
 # startup applications
 exec --no-startup-id nm-applet
-exec --no-startup-id redshift-gtk
-exec --no-startup-id ksuperkey -e 'Super_L=Alt_L|d'
+exec --no-startup-id redshift -t 6500:3500
+exec --no-startup-id xcape -e 'Super_L=Alt_L|d'
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id conky
+exec --no-startup-id feh --bg-scale ~/.config/i3/fall.png
 
 # workspace names / font-awesome
 set $ws1 "01 "
@@ -111,18 +109,31 @@ bindsym Mod1+Shift+Control+0 move container to workspace $wsX
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-
         bindsym h resize shrink width 5 px or 5 ppt
         bindsym j resize shrink height 5 px or 5 ppt
         bindsym k resize grow height 5 px or 5 ppt
         bindsym l resize grow width 5 px or 5 ppt
 
-        # back to normal: Enter or Escape
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+        # back to normal
+        bindsym return mode "default"
+        bindsym escape mode "default"
+        bindsym $mod+r mode "default"
 }
 bindsym $mod+r mode "resize"
+
+# move window (you can also use the mouse for that)
+mode "move" {
+        bindsym h move left 10 px
+        bindsym j move down 10 px
+        bindsym k move up 10 px
+        bindsym l move right 10 px
+
+        # back to normal
+        bindsym return mode "default"
+        bindsym escape mode "default"
+        bindsym $mod+m mode "default"
+}
+bindsym $mod+m mode "move"
 
 # Volume keys
 bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume 0 +5%"
@@ -144,7 +155,6 @@ bindsym XF86AudioPrev exec playerctl previous
 #######
 
 # set primary gruvbox colorscheme colors
-#set $bg #282828
 set $bg #1d2021
 set $fg #ebdbb2
 set $red #cc241d
@@ -158,27 +168,7 @@ set $darkgray #282828
 set $orange #fe8019
 
 # font used by i3 for titles and bars
-#font pango:DejaVu Sans 8
 font pango:DejaVu Sans Mono 8
-
-#start of bar section
-bar {
-    position top
-    font pango:FontAwesome 8
-    status_command i3blocks -c ~/.config/i3/i3blocks.conf
-    colors {
-        # bar background color
-        background $bg
-        # text color used for blocks that do not have a color specified.
-        statusline $yellow
-        # workspaces section
-        #                    border  backgr. text
-        focused_workspace    $aqua $aqua $darkgray
-        inactive_workspace   $darkgray $darkgray $yellow
-        active_workspace     $darkgray $darkgray $yellow
-        urgent_workspace     $red $red $bg
-    }
-}
 #end of bar section
 
 #start of window title bars & borders section
@@ -189,31 +179,23 @@ new_float pixel
 hide_edge_borders smart
 
 # custom gruvbox
-# class                 border|backgr|text|indicator|child_border
-client.focused          $gray $darkgray $yellow $gray $gray
-client.focused_inactive $darkgray $darkgray $gray $purple $darkgray
-client.unfocused        $darkgray $darkgray $gray $purple $darkgray
-client.urgent           $red $red $white $red $red
-
-# green gruvbox
-# class                 border|backgr|text|indicator|child_border
-#client.focused          $green $green $darkgray $purple $darkgray
-#client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
-#client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
-#client.urgent           $red $red $white $red $red
-
-# blue gruvbox
-# class                 border|backgr|text|indicator|child_border
-#client.focused          $blue $blue $darkgray $purple $darkgray
-#client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
-#client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
-#client.urgent           $red $red $white $red $red
+# class                 border    backgr    text    indicator child_border
+client.focused          $gray     $darkgray $yellow $gray     $gray
+client.focused_inactive $darkgray $darkgray $gray   $purple   $darkgray
+client.unfocused        $darkgray $darkgray $gray   $purple   $darkgray
+client.urgent           $red      $red      $white  $red      $red
 
 #end of window title bars & borders section
 
 #start of specific windows section
 for_window [class="TelegramDesktop"] floating enable
-for_window [class="Caja"] floating enable
 for_window [class="Engrampa"] floating enable
-for_window [class="Steam"] floating enable
+for_window [class="Thunar"] floating enable
+for_window [class="Firefox" instance="Devtools"] floating enable
+for_window [class="mpv"] floating enable
+for_window [class="Transmission-gtk"] floating enable
+for_window [class="Matplotlib"] floating enable
+# for_window [class="Steam"] floating enable
+
+for_window [class="Spotify"] move to workspace $ws8
 #end of specific windows section
