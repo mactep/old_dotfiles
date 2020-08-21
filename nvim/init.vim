@@ -1,36 +1,10 @@
-if &compatible
-    set nocompatible
-endif
+call pack#start()
 
-let g:dein_dir = $HOME . '/.config/nvim/repos/github.com/Shougo/dein.vim'
-if !isdirectory(g:dein_dir)
-    call mkdir(g:dein_dir, 'p')
-    execute '!git clone https://github.com/Shougo/dein.vim' g:dein_dir
-endif
-
-execute 'set runtimepath+=' . g:dein_dir
-
-if dein#load_state('$HOME/.config/nvim/')
-    call dein#begin('$HOME/.config/nvim/')
-
-    call dein#add(g:dein_dir)
-
-    call dein#add('morhetz/gruvbox')
-    call dein#add('davidhalter/jedi-vim')
-
-    call dein#end()
-    call dein#save_state()
-endif
-
-filetype plugin indent on
-syntax enable
-
-if dein#check_install()
-    call dein#install()
-endif
+call pack#add_start('morhetz/gruvbox')
+call pack#add_start('neoclide/coc.nvim/tree/release')
+call pack#add_start('airblade/vim-gitgutter')
 
 " colorscheme
-" set termguicolors
 let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_sign_column='bg0'
 colorscheme gruvbox
@@ -50,7 +24,6 @@ set scrolloff=8
 set splitbelow
 set splitright
 set undofile
-"set directory=~/.config/nvim/swap//
 
 " indentation
 set autoindent
@@ -61,10 +34,35 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
-" neovim terminal
+" terminal
 autocmd TermOpen * setlocal nonumber
 autocmd TermOpen * startinsert
-" autocmd BufEnter term://* startinsert
+
+" mappings
+let mapleader = ','
+
+nnoremap <esc> :noh<return><esc>
+
+vnoremap < <gv
+vnoremap > >gv
+
+nnoremap <C-s> :update<CR>
+vnoremap <C-s> <C-C>:update<CR>
+inoremap <C-s> <C-O>:update<CR>
+
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+tnoremap <Esc> <C-\><C-n>
+tnoremap <C-j> <C-\><C-n><C-w>j
+tnoremap <C-k> <C-\><C-n><C-w>k
+tnoremap <C-h> <C-\><C-n><C-w>h
+tnoremap <C-l> <C-\><C-n><C-w>l
+
+" Unfuck my screen
+nnoremap U :syntax sync fromstart<CR>:redraw!<CR>
 
 " netrw
 let g:netrw_banner = 0
@@ -75,9 +73,9 @@ let g:netrw_winsize = 0
 " tree listing is bugged
 " autocmd FileType netrw setl bufhidden=delete
 
-" set completeopt=longest,menuone,noinsert,noselect
 set pumheight=12
 
 " source
-source ~/.config/nvim/settings/mappings.vim
 source ~/.config/nvim/settings/functions.vim
+
+command PrettyJson %!python -m json.tool
