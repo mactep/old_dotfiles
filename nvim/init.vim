@@ -1,9 +1,3 @@
-call pack#start()
-
-call pack#add_start('morhetz/gruvbox')
-call pack#add_start('neoclide/coc.nvim/tree/release')
-call pack#add_start('airblade/vim-gitgutter')
-
 " colorscheme
 let g:gruvbox_contrast_dark='hard'
 let g:gruvbox_sign_column='bg0'
