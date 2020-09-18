@@ -73,3 +73,6 @@ set pumheight=12
 source ~/.config/nvim/settings/functions.vim
 
 command PrettyJson %!python -m json.tool
+
+" fuck plaintex
+let g:tex_flavor = "latex"
