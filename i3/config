@@ -6,7 +6,7 @@ bindsym $mod+Return exec --no-startup-id urxvt
 bindsym Mod1+Control+t exec --no-startup-id urxvt
 # file manager
 bindsym Mod4+e exec --no-startup-id thunar
-# dmenu
+
 bindsym Mod1+d exec dmenu_run -i -nb "#1d2021" -nf "#ebdbb2" -sb "#d79921" -sf "#ebdbb2"
 # kill container
 bindsym $mod+Down kill
@@ -18,16 +18,12 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3?' -b 'Yes' 'i3-msg e
 # kill xorg server
 bindsym $mod+Shift+Escape exec pkill -15 Xorg
 
-# printscreen
 bindsym --release Print exec --no-startup-id "import png:- | xclip -selection c -t image/png"
+bindsym --release Shift+Print exec --no-startup-id "import -window root png:- | xclip -selection c -t image/png"
+bindsym --release Control+Print exec --no-startup-id "import ~/Pictures/prints/$(date '+%y%m%d%H%M%S').png"
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
-
-# alt tab window switcher ?
-# bindsym Mod1+Tab alttab
-bindsym Mod1+Tab exec "~/.config/i3/switcher.sh"
-bindsym Mod1+Tab workspace next
 
 # vim key navigations
 # change focus
@@ -55,15 +51,17 @@ bindsym $mod+minus move scratchpad
 floating_modifier $mod
 bindsym $mod+space floating toggle
 # change focus between tiling / floating windows
-bindsym $mod+Shift+space focus mode_toggle
+bindsym Mod1+Tab focus mode_toggle
+focus_follows_mouse no
 
 # startup applications
-exec --no-startup-id nm-applet
-exec --no-startup-id redshift -t 6500:3500
+exec --no-startup-id conky -c ~/.config/conky/calendar
+exec --no-startup-id redshift -O 3000
 exec --no-startup-id xcape -e 'Super_L=Alt_L|d'
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id conky
-exec --no-startup-id feh --bg-scale ~/.config/i3/fall.png
+exec --no-startup-id feh --bg-center ~/.config/i3/bgs/minios.jpg
+exec --no-startup-id synclient RTCornerButton=0 # prevents accidental paste with touchpad
+exec --no-startup-id setxkbmap -option caps:escape
+exec --no-startup-id clipit -n
 
 # workspace names / font-awesome
 set $ws1 "01 "
@@ -142,13 +140,16 @@ bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute 0 toggle"
 
 # Screen brightness keys
 # (This should work for both acpilight or xbacklight.)
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20
+bindsym XF86Calculator exec xbacklight -inc 10
+bindsym XF86Explorer exec xbacklight -dec 10
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# TochpadToggle
+bindsym $mod+n exec synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')
 
 #######
 #THEME#
@@ -169,6 +170,26 @@ set $orange #fe8019
 
 # font used by i3 for titles and bars
 font pango:DejaVu Sans Mono 8
+
+#start of bar section
+# exec_always --no-startup-id ~/.config/polybar/launch.sh
+bar {
+    position top
+    font pango:FontAwesome 8
+    status_command i3blocks -c ~/.config/i3/i3blocks.conf
+    colors {
+        # bar background color
+        background $bg
+        # text color used for blocks that do not have a color specified.
+        statusline $yellow
+        # workspaces section
+        #                    border  backgr. text
+        focused_workspace    $aqua $aqua $darkgray
+        inactive_workspace   $darkgray $darkgray $yellow
+        active_workspace     $darkgray $darkgray $yellow
+        urgent_workspace     $red $red $bg
+    }
+}
 #end of bar section
 
 #start of window title bars & borders section
@@ -183,11 +204,12 @@ hide_edge_borders smart
 client.focused          $gray     $darkgray $yellow $gray     $gray
 client.focused_inactive $darkgray $darkgray $gray   $purple   $darkgray
 client.unfocused        $darkgray $darkgray $gray   $purple   $darkgray
-client.urgent           $red      $red      $white  $red      $red
+client.urgent           $red      $red      $fg     $red      $red
 
 #end of window title bars & borders section
 
 #start of specific windows section
+for_window [class="Steam"] floating enable
 for_window [class="TelegramDesktop"] floating enable
 for_window [class="Engrampa"] floating enable
 for_window [class="Thunar"] floating enable
@@ -195,7 +217,9 @@ for_window [class="Firefox" instance="Devtools"] floating enable
 for_window [class="mpv"] floating enable
 for_window [class="Transmission-gtk"] floating enable
 for_window [class="Matplotlib"] floating enable
-# for_window [class="Steam"] floating enable
+for_window [class="discord"] floating enable
+for_window [class="scrcpy"] floating enable
+for_window [class="explorer.exe"] floating enable
 
 for_window [class="Spotify"] move to workspace $ws8
 #end of specific windows section
