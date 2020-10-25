@@ -1,6 +1,11 @@
 {
     "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": ["--enable=W0614"],
+
     "snippets.ultisnips.directories": ["vim-snippets/snippets"],
+
     "languageserver": {
         "ccls": {
             "command": "ccls",

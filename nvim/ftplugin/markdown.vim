@@ -1,4 +1,4 @@
-setlocal spelllang=pt-br spell tw=79 cc=80
+setlocal spelllang=en spell tw=79 cc=80
 CocDisable
 
 augroup md_preview

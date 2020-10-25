@@ -20,13 +20,13 @@ set splitright
 set undofile
 
 " indentation
-set autoindent
+" set autoindent
 set expandtab
-set smarttab
-set shiftround
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+" set smarttab
+" set shiftround
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 
 " terminal
 autocmd TermOpen * setlocal nonumber
@@ -76,3 +76,6 @@ command PrettyJson %!python -m json.tool
 
 " fuck plaintex
 let g:tex_flavor = "latex"
+
+" fixes python integration in virtualenvs
+let g:python3_host_prog = '/usr/bin/python3'
