@@ -8,9 +8,6 @@
 	path = nvim/pack/plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
 	branch = release
-[submodule "nvim/pack/plugins/start/vim-snippets"]
-	path = nvim/pack/plugins/start/vim-snippets
-	url = https://github.com/honza/vim-snippets
 [submodule "nvim/pack/plugins/opt/vimtex"]
 	path = nvim/pack/plugins/opt/vimtex
 	url = https://github.com/lervag/vimtex
