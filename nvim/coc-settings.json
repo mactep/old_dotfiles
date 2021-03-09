@@ -2,9 +2,10 @@
     "python.jediEnabled": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintArgs": ["--enable=W0614"],
+    "python.linting.pylintArgs": ["--enable=W0614", "--extension-pkg-whitelist=cv2"],
 
     "snippets.ultisnips.directories": ["vim-snippets/snippets"],
+    "snippets.userSnippetsDirectory": "~/.config/nvim/snippets/ultisnips",
 
     "languageserver": {
         "ccls": {

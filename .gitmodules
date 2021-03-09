@@ -11,3 +11,12 @@
 [submodule "nvim/pack/plugins/opt/vimtex"]
 	path = nvim/pack/plugins/opt/vimtex
 	url = https://github.com/lervag/vimtex
+[submodule "nvim/pack/plugins/opt/vim-snippets"]
+	path = nvim/pack/plugins/opt/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "nvim/pack/plugins/start/fzf.vim"]
+	path = nvim/pack/plugins/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "nvim/pack/plugins/start/fzf"]
+	path = nvim/pack/plugins/start/fzf
+	url = https://github.com/junegunn/fzf
