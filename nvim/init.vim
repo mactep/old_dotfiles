@@ -89,9 +89,21 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <leader>rn <Plug>(coc-rename)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
+inoremap <silent><expr> <c-space> coc#refresh()
 
 " Zettelkasten
 command! -nargs=1 Search execute 'silent grep! -r -i <args> .' | copen
 command! -nargs=1 SearchTag execute 'silent grep! -r -w -i \\#<args> .' | copen
 command! Backlinks execute 'silent grep! -H -r % .' | copen
 command! -nargs=* ZK execute "edit $ZK_PATH/".strftime("%Y%m%d%H%M")."_<args>.md"
+
+"fzf
+tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<c-\><c-n>"
+nnoremap <C-n> :GFiles<enter>
+nnoremap <C-t> :GFiles!<enter>
+inoremap <C-t> <Esc>:tabnew +GFiles<enter>
+" ignore some files
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   "rg --column --line-number --no-heading --color=always --smart-case -g '!package-lock.json' -g '!node_modules' -- ".shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
