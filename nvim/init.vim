@@ -99,9 +99,7 @@ command! -nargs=* ZK execute "edit $ZK_PATH/".strftime("%Y%m%d%H%M")."_<args>.md
 
 "fzf
 tnoremap <expr> <Esc> (&filetype == "fzf") ? "<Esc>" : "<c-\><c-n>"
-nnoremap <C-n> :GFiles<enter>
-nnoremap <C-t> :GFiles!<enter>
-inoremap <C-t> <Esc>:tabnew +GFiles<enter>
+nnoremap <C-n> :GFiles!<enter>
 " ignore some files
 command! -bang -nargs=* Rg
   \ call fzf#vim#grep(
